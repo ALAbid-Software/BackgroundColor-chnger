@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Chenger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="color-switcher">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+    </div>
+    <h1 class="text">About Us</h1>
+    <img src="./pexels-andreea-ch-1166644.jpg" alt="">
+<p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In corporis debitis rem, illo enim consectetur itaque eveniet id ad error exercitationem dolore eum dolorem impedit molestias. Numquam ea id alias suscipit iste! Placeat doloremque nostrum eum suscipit dicta, exercitationem fugit quaerat iure porro repellat libero cum sit fugiat aliquam laborum saepe. Delectus facilis suscipit obcaecati quo provident a odit repellat optio laborum? Maiores magni repudiandae veritatis, ad deleniti alias dolore. Quia unde fuga dolore nostrum illo quam totam est, labore ipsam expedita harum laboriosam. Ipsum voluptatum incidunt dolor architecto eum minima ullam odio, blanditiis itaque est omnis expedita officiis repellendus nostrum? Aut nemo tenetur cum, officiis tempore dolorem porro maxime natus, perspiciatis ipsum ipsa! Consequatur quasi sapiente, dolores eos quo expedita maxime incidunt explicabo perferendis aliquam, adipisci velit, ab reiciendis nemo. Saepe sint, ipsum fugit obcaecati at repellat est repudiandae vitae quisquam eum, odit deserunt doloribus natus debitis eos asperiores, necessitatibus rem quibusdam veniam voluptatem blanditiis. Ipsa fuga explicabo corporis cumque rem, alias eveniet. Odit earum nam vero itaque aliquam illo natus veniam maxime facere, perferendis in architecto, dicta asperiores dolore dignissimos? Perferendis repellendus dicta quae ea assumenda tempora corrupti vitae, odio porro placeat modi itaque incidunt fugiat natus molestiae consequatur rem obcaecati culpa officiis impedit sapiente illum, autem optio voluptates? Saepe perferendis et consequuntur deleniti at voluptatem sit sequi officiis iusto suscipit in eligendi tempore soluta nisi nemo sapiente dolor aliquid harum, nesciunt explicabo? Suscipit, praesentium modi beatae dolorum eveniet tempora porro aliquid vero ducimus obcaecati accusantium ullam quod delectus error facere iusto, velit, recusandae perferendis expedita dolor. Sunt nisi nesciunt soluta quibusdam eum laboriosam blanditiis. Sed odit sunt similique perspiciatis ipsa, expedita fuga esse corporis quo ut alias dolore facilis iusto illum porro voluptatibus earum, magni vitae nisi nam. Facilis dicta ratione sit reiciendis illo neque ab tempora omnis a ea odio maiores, iusto eos unde adipisci eius deleniti ut praesentium cum? Odio libero eos doloremque, magnam saepe asperiores, dolor earum exercitationem provident, sint nesciunt esse culpa tempore? Vitae, enim nihil? Aspernatur sequi ex labore aut sunt reprehenderit! Rem unde neque fuga. Explicabo impedit, nam illum, necessitatibus cumque odit alias dolor quo blanditiis, aliquam quidem modi ut iure corrupti perspiciatis perferendis maiores eius rem in sed beatae veniam voluptate facilis odio. Et nihil voluptatem tempore blanditiis odit ipsam sequi aspernatur reprehenderit hic? Quaerat, quidem! Repudiandae consequuntur ipsum dolorem tenetur? Labore eos ex temporibus. Labore iusto iure, dolorem nam quaerat quam cumque voluptas at repudiandae doloribus? Voluptate cumque dolorum inventore doloribus consectetur repellendus ratione, libero mollitia nam molestias totam, incidunt dolores laudantium quam doloremque voluptatum modi consequuntur adipisci eveniet. Fugiat, velit ipsam natus iure officia dolore? Eos, deserunt animi illo, mollitia commodi asperiores repellendus voluptate quis temporibus nihil nulla obcaecati, eaque enim iusto recusandae minima aperiam blanditiis fuga ipsam officiis. Explicabo, temporibus. Labore ab non pariatur at harum dolores sint voluptates numquam exercitationem aspernatur velit deleniti, corrupti voluptatibus eveniet quaerat architecto quam, quibusdam aliquam voluptate iusto? Obcaecati eligendi architecto, minus rerum dolores facilis repudiandae laborum voluptates laboriosam, incidunt ipsam.
+</p>
+<script>
+    function changeBG(color){
+        document.body.style.backgroundColor = color;
+        let a = document.getElementsByClassName("text");
+        if(color == "#000000"){
+            for(let b of a){
+                b.style.color = "white";
+            }
+        }else{
+            for(let b of a){
+                b.style.color = "black";
+            }
+        }
+    }
+</script>
+</body>
+</html>
